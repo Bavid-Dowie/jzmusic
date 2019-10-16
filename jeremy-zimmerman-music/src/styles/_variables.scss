@@ -1,6 +1,7 @@
 // Colors
-$linkColor: #005B60;
-$pageBG: #f2f3f2;
+$splash: #3b0404;
+$accentColor: #2c0505;
+$pageBG: #694747;
 $textColor: #c0c0c0;
 
 // Text
@@ -13,9 +14,8 @@ $mainFont: Georgia, 'Times New Roman', Times, serif;;
 }
 
 @mixin splashStyle {
-  background: $linkColor;
+  background: $splash;
   color: $textColor;
-  flex: 1;
   flex-direction: column;
   justify-content: center;
   text-align: center;

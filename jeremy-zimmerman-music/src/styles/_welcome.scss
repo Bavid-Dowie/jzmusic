@@ -1,6 +1,17 @@
 @import './variables';
 
+.welcome-header {
+  background: $accentColor;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+
 .welcome-home {
-  @include fullScreen();
-  @include splashStyle();
+  background: $pageBG;
+  color: $textColor;
+  height: 100vh;
 }

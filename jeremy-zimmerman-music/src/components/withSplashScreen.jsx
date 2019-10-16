@@ -18,14 +18,6 @@ function withSplashScreen(WrappedComponent) {
       };
     }
 
-    // clearSplash() {
-    //   setTimeout(() => {
-    //     this.setState({
-    //       username: 'Fujiman'
-    //     })
-    //   }, 5000);
-    // }
-
     async componentDidMount() {
         setTimeout(() => {
           this.setState({
@@ -38,7 +30,7 @@ function withSplashScreen(WrappedComponent) {
 
       if (this.state.loading) return LoadingMessage()
 
-      return <WrappedComponent {...this.props} />
+      return <WrappedComponent />
     }
   }
 }
