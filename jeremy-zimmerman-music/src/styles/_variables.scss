@@ -1,0 +1,22 @@
+// Colors
+$linkColor: #005B60;
+$pageBG: #f2f3f2;
+$textColor: #c0c0c0;
+
+// Text
+$mainFont: Georgia, 'Times New Roman', Times, serif;;
+
+@mixin fullScreen {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+@mixin splashStyle {
+  background: $linkColor;
+  color: $textColor;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

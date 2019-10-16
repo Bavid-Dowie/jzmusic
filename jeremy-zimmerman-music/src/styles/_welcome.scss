@@ -1,0 +1,6 @@
+@import './variables';
+
+.welcome-home {
+  @include fullScreen();
+  @include splashStyle();
+}
